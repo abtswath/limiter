@@ -1,0 +1,29 @@
+{
+    "name": "abtswath/limiter",
+    "type": "library",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=8.2",
+        "ext-redis": "*",
+        "nesbot/carbon": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Limiter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Limiter\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abtswath",
+            "email": "zyapfine@gmail.com"
+        }
+    ]
+}
